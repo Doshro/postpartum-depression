@@ -1,3 +1,18 @@
+*,html{
+	margin: 0px;
+	padding: 0px;
+}
+
+.site-header{
+	padding: 10px;
+	height: 70px;
+	background-color: rgb(54, 153, 153);
+}
+.site-branding{
+	float: left;
+	width: 50px;
+	
+}
 .main-navigation {
 	display: block;
 	width: 100%;
@@ -7,6 +22,9 @@
 		list-style: none;
 		margin: 0;
 		padding-left: 0;
+
+		
+		
 
 		ul {
 			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -27,11 +45,13 @@
 				&.focus > ul {
 					display: block;
 					left: auto;
+					
 				}
 			}
 
 			a {
 				width: 200px;
+				
 			}
 
 			:hover > a,
@@ -51,6 +71,7 @@
 
 	li {
 		position: relative;
+		padding: 1em 0.3em;
 
 		&:hover > a,
 		&.focus > a {
@@ -60,6 +81,10 @@
 	a {
 		display: block;
 		text-decoration: none;
+		margin-right: 30px;
+		color: black;
+		
+		
 	}
 
 	.current_page_item > a,
@@ -73,9 +98,39 @@
 .menu-toggle,
 .main-navigation.toggled ul {
 	display: block;
+	float: right;
+}
+.menu-toggle{
+	margin-top: 20px;
+	background-color: transparent;
+	border: none;
+
+	.burger-menu{
+		width: 32px;
+
+	}
+
+
+	
+	
+}
+.main-navigation.toggled ul{
+	position: relative;
+	top: -7px;
+	background-color: burlywood;
+	height: 400px;
+	width: 50%;
+	float: right;
+	clear: both;
+
 }
 
+
 @media screen and (min-width: 37.5em) {
+
+	.main-navigation{
+		
+	}
 
 	.menu-toggle {
 		display: none;
@@ -83,7 +138,11 @@
 
 	.main-navigation ul {
 		display: flex;
+		justify-content: flex-end;
+		// align-items: center;
+		color: black;
 	}
+	
 }
 
 .comment-navigation,

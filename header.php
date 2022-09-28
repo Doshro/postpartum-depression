@@ -29,24 +29,11 @@
 		<div class="site-branding">
 			<?php
 			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$postpartum_depression_description = get_bloginfo( 'description', 'display' );
-			if ( $postpartum_depression_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $postpartum_depression_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-			<?php endif; ?>
+			?>
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'postpartum-depression' ); ?></button>
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><img class="burger-menu"src="http://postpartumdepression.local/wp-content/uploads/2022/09/menu.png" alt="primary menu"></button>
 			<?php
 			wp_nav_menu(
 				array(
