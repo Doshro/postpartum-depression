@@ -1,0 +1,62 @@
+.hero-section{
+    background-image: url(http://postpartumdepression.local/wp-content/uploads/2022/10/postpartum1.jpg);
+    height: 800px;
+    width: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+    background-color: rgb(241, 233, 233);
+   
+    
+    .hero-head{
+        background-color: white;
+        height: 150px;
+        width: 200px;
+        float: left;
+        margin: 20px;
+        border-radius: 10px;
+
+        h1{
+            text-align: center;
+            color: rgb(9, 9, 87);
+        }
+        
+    }
+    .quote-image{
+        height: 200px;
+        width: 300px;
+        float: right;
+        margin: 50px 20px;
+        border-radius: 10px;
+    }
+    .cards{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding-top: 150px;
+        justify-content: center;
+        
+    
+        
+    }
+    .card-1{
+            
+            height: 300px;
+            width: 300px;
+        }
+        .card-2{
+            background-color: yellow;
+            height: 300px;
+            width: 300px;
+            margin: 0px 40px;
+            
+            
+        }
+        .card-3{
+            background-color: #006fbe;
+            height: 300px;
+            width: 300px;
+            border: 1px black;
+         }
+}
+

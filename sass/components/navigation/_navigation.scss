@@ -6,7 +6,11 @@
 .site-header{
 	padding: 10px;
 	height: 70px;
-	background-color: rgb(54, 153, 153);
+	background-color: rgb(6, 78, 6);
+	position: sticky;
+    top: 0;
+    z-index: 1;
+
 }
 .site-branding{
 	float: left;
@@ -16,7 +20,7 @@
 .main-navigation {
 	display: block;
 	width: 100%;
-
+	
 	ul {
 		display: none;
 		list-style: none;
@@ -82,7 +86,7 @@
 		display: block;
 		text-decoration: none;
 		margin-right: 30px;
-		color: black;
+		color: white;
 		
 		
 	}
@@ -104,10 +108,11 @@
 	margin-top: 20px;
 	background-color: transparent;
 	border: none;
+	color: white;
 
 	.burger-menu{
 		width: 32px;
-
+		color: whitesmoke;
 	}
 
 
@@ -125,12 +130,10 @@
 
 }
 
-
+.menu-item-gtranslate div{
+	position: relative !important ;
+}
 @media screen and (min-width: 37.5em) {
-
-	.main-navigation{
-		
-	}
 
 	.menu-toggle {
 		display: none;

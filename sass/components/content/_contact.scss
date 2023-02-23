@@ -1,0 +1,117 @@
+.contact-wrapper{
+    width: 100%;
+    background-color: rgb(211, 208, 208);
+    margin-top: -30px;
+    h1{
+        text-align: center;
+        font-size: 40px;
+        padding: 50px;
+        
+    }
+
+    
+
+    .form-div{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        
+
+        .form7{
+            width: 100%;
+            background-color: rgb(90, 56, 56);
+            padding-top: 50px;
+            margin-top: 20px;
+            
+
+            input[type='text'], [type='email'], textarea {
+                background: none;
+                border: none;
+                border-bottom: solid 2px #fff;
+                width: 75%;
+
+
+            }
+            textarea{
+                width: 75%;
+                height: 100px;
+            }
+            
+            
+            label{
+                color: white;
+            }
+
+            .wpcf7-form {
+                margin-left: 20px;
+                padding-top: 40px;
+                font-size: 18px;
+
+            }
+            .submit{
+                height: 50px;
+                width: 30px;
+                font-size: 25px;
+                border-radius: 15px;
+                margin-left: 100px;
+                width: 150px;
+                background-color: rgb(4, 4, 31);
+                color: white;
+                margin-top: -20px;
+                padding-bottom: 40px;
+                
+                
+            }
+        }
+        
+    }
+
+    .dev-info{
+        width: 50%;
+        float: right;
+        padding-top: 80px;
+
+        .img-position{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img{
+                height: 200px;
+                width: 200px;
+                border-radius: 100px;
+            }
+            h2{
+                text-align: center;
+                font-size: 30px;
+                padding-top: 20px;
+            }
+            p{
+                padding-top: 20px;
+                font-size: 25px;
+            }
+            
+        }
+
+        .social-icons{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-bottom: 100px;
+            margin-left: 130px;
+            
+
+            img{
+                height: 40px;
+                width: 40px;
+                border-radius: 20px;
+                margin-right: 20px;
+                
+                
+            }
+        }
+    }
+}
+

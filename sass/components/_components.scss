@@ -1,11 +1,18 @@
 /* Navigation
 --------------------------------------------- */
 @import "navigation/navigation";
+@import "navigation/footer";
+
 
 /* Posts and pages
 --------------------------------------------- */
 @import "content/posts-and-pages";
 @import "content/homepage";
+@import "content/symptoms";
+@import "content/causes";
+@import "content/effects";
+@import "content/treatments";
+@import "content/contact";
 
 
 /* Comments
